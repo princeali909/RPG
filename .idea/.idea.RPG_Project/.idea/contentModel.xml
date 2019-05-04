@@ -5,23 +5,54 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Asset Packs" t="Include">
+          <e p="Animations" t="Include">
+            <e p="README - Usage Rights for these assets 1.txt" t="Include" />
+          </e>
+          <e p="BOXOPHOBIC" t="Include">
+            <e p="Skybox Cubemap Extended" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="Skybox Cubemap Extended.shader" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Synty - Polygon Student Sample" t="Include">
             <e p="README - Usage Rights for these assets.txt" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Mover.cs" t="Include" />
+          <e p="Cinematics" t="Include">
+            <e p="CinematicControlRemover.cs" t="Include" />
+            <e p="CinematicTrigger.cs" t="Include" />
+          </e>
+          <e p="Combat" t="Include">
+            <e p="CombatTarget.cs" t="Include" />
+            <e p="Fighter.cs" t="Include" />
+          </e>
+          <e p="Control" t="Include">
+            <e p="AI.cs" t="Include" />
+            <e p="PatrolPath.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+          </e>
+          <e p="Core" t="Include">
+            <e p="ActionScheduler.cs" t="Include" />
+            <e p="FollowCamera.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
+            <e p="IAction.cs" t="Include" />
+          </e>
+          <e p="Movement" t="Include">
+            <e p="Mover.cs" t="Include" />
+          </e>
+          <e p="Scene Management" t="Include">
+            <e p="Portal.cs" t="Include" />
+          </e>
         </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="RPG_Project.sln" t="IncludeFlat" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp/bin" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_RPG_Project.-1440855497.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_RPG_Project.-1440855497.00" t="ExcludeRecursive" />
   </component>
 </project>
